@@ -1,3 +1,6 @@
+alert("Kino nomini kiritib, qidiring...!")
+
+
 let searchSelectElement = document.querySelector(".search-select")
 let searchFormElement = document.querySelector(".search-form")
 let searchInputElement = document.querySelector(".search-input");
