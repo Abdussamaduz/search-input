@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.box
+{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(97, 158, 194);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.search-form
+{
+    background-color: rgba(29, 38, 116, 0.667);
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.search-input
+{
+    background: none;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 253, 253, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.search-select
+{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgba(12, 7, 82, 0.445);
+    color: rgba(184, 184, 184, 0.698);
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: 0.4s;
+
+}
+.search-select:hover
+{
+    background-color: rgba(5, 3, 87, 0.856);
+    color: #fffa;
+    transition: 0.4s;
+}
+
+.option
+{
+    background-color: rgba(5, 3, 87, 0.856);
+    display: block;
+    font-family: monospace;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+
+.submit
+{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #0006;
+    color: #fffa;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.submit:hover
+{
+    background-color: #000;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.movies-list
+{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    overflow: scroll;
+    height: 100%;
+}
+
+.movies-list::-webkit-scrollbar
+{
+    width: 1px;
+    height: 2px;
+    background-color: none;
+}
+
+.item
+{
+    padding: 10px 20px;
+    background-color: rgba(8, 7, 42, 0.733);
+    color: #fffa;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+}
