@@ -30,6 +30,7 @@ body
 
 .search-form
 {
+    width: 90%;
     background-color: rgba(29, 38, 116, 0.667);
     padding: 10px 5px;
     display: flex;
