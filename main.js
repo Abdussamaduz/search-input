@@ -33,7 +33,7 @@ function renderData(array){
 function getMoviesByOptions(name, year){
     let filteredMovies = []
     for(let movie of kinolar){
-        let movieNameGetSearchName = movie.title.toLocaleLowerCase().includes(name)
+        let movieNameGetSearchName = movie.title.toLowerCase().includes(name)
         if(movieNameGetSearchName && year == movie.year){
             filteredMovies.push(movie)
         }
